@@ -1,0 +1,54 @@
+.body-card {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+    background-color: #F4F4F4;
+    padding: 20px;
+    width: 77%;
+    box-sizing: border-box;
+    margin-top: -2674px;
+    margin-left: 301px;
+    height: 338vh;
+    overflow: auto;
+}
+
+.card {
+    background-color: white;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    text-align: center;
+}
+
+.imagenes-card {
+    border-radius: 10px;
+    width: 93%;
+    height: auto;
+}
+
+.titulo-car {
+    font-size: 17px;
+    font-weight: bold;
+    margin: 10px 0;
+}
+
+.h5-card {
+    font-size: 15px;
+    color: #555;
+}
+
+.agg-carrito {
+    margin-top: 20px;
+    padding: 10px 20px;
+    border: none;
+    background-color: white;
+    color: white;
+    border-radius: 5px;
+    cursor: pointer;
+    background-color: #544ac3;
+    font-size: 20px;
+}
+
+.agg-carrito img {
+    margin-left: 10px;
+}

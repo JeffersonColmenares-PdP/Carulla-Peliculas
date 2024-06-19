@@ -1,0 +1,126 @@
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #8BC34A;
+    padding: 10px 20px;
+    font-family: Arial, sans-serif;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    box-sizing: border-box;
+}
+
+.navbar-left,
+.navbar-center,
+.navbar-right {
+    display: flex;
+    align-items: center;
+    width: 100%;
+}
+
+.icon-navbar-right {
+    display: flex;
+    justify-content: space-between;
+    margin-left: 80px;
+    gap: 40px;
+    align-items: center;
+}
+
+.menu-button {
+    background: none;
+    border: none;
+    font-size: 24px;
+    cursor: pointer;
+}
+
+.location {
+    display: flex;
+    align-items: center;
+    margin-left: 10px;
+}
+
+.search-input {
+    padding: 5px;
+    border: 1px solid #ccc;
+    border-radius: 11px;
+    margin-right: 9px;
+    width: 500px;
+    font-weight: bold;
+}
+
+.search-button {
+    background-color: #fff;
+    border-radius: 14px;
+    cursor: pointer;
+    color: blueviolet;
+    text-align: center;
+}
+
+.icon-button {
+    background: none;
+    border: none;
+    font-size: 24px;
+    margin-left: 10px;
+    cursor: pointer;
+}
+
+.logo-carulla {
+    margin-left: 2%;
+}
+
+.como-quieres {
+    color: white;
+    margin-left: 2%;
+}
+
+.modal-carrito {
+    background-color: #8BC34A;
+    position: absolute;
+    width: 60%;
+    max-height: 80vh;
+    overflow-y: auto;
+    margin-top: 10vh;
+    margin-left: 20%;
+    border-radius: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+    padding: 20px;
+    box-sizing: border-box;
+}
+
+.carrito-modal {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 80%;
+    margin-top: 10px;
+}
+
+.titulo-carrito {
+    color: white;
+    font-size: 30px;
+    margin-bottom: 20px;
+}
+
+button.cerrar-modal, .eliminar-pelicula {
+    margin-top: 20px;
+    padding: 10px 20px;
+    border: none;
+    background-color: white;
+    color: #544ac3;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+button.cerrar-modal:hover, .eliminar-pelicula:hover {
+    background-color: #ccc;
+}
+
+.nombre, .cantidad {
+    color: white;
+    margin: 0;
+    font-size: 18px;
+}
