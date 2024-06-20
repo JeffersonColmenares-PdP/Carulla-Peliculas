@@ -10,9 +10,9 @@ const Navbar = ({ setInput, input, setPelicula, carrito, setCarrito }) => {
   }, []);
 
   const eliminarPelicula = (id) => {
-    // Filtrar el carrito para eliminar la película con el id dado
+    // Filtra carrito  elimina  pelicula por id 
     const nuevoCarrito = carrito.filter((item, index) => index !== id);
-    // Actualizar el estado y guardar en localStorage
+    // Actualiza estado guarda en localStorage
     setCarrito(nuevoCarrito);
     localStorage.setItem("carrito", JSON.stringify(nuevoCarrito));
   };
@@ -142,6 +142,7 @@ const Navbar = ({ setInput, input, setPelicula, carrito, setCarrito }) => {
             ) : (
               <>
                 {carrito.map((item, id) => (
+                  //key indispensable en .map actualiza posicion modal
                   <div className="carrito-modal" key={id}>
                     <p className="nombre">Película: {item.nombre}</p>
                     <p className="cantidad">Cantidad: {item.cantidad}</p>
